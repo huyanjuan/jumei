@@ -1,0 +1,305 @@
+@charset "utf-8";
+*{
+    margin: 0;
+    padding: 0;
+}
+$width-1:1349px;
+$height:177px;
+$width:1090px;
+.top{
+    width: $width-1;
+    height: $height;
+    & .jiantou {
+        background: url(http://a2.jmstatic.com/04418ac031fb4e55/header_newicon1.png) no-repeat;
+        display: block;
+        width: 6px;
+        height: 3px;
+        float: right;
+    }
+}
+.header_top{
+    height: 28px;
+    background: #f2f2f2;
+    border-bottom: 1px solid #e5e5e5;
+}
+.header_top .h-box{
+    line-height: 28px;
+    width: $width;
+    margin: 0 auto;
+    color:#6c6c6c;
+}
+.header_top .h-box-left li{
+    margin-right: 20px;
+}
+.header_top .h-box-left a {
+    color: #6c6c6c;
+}
+
+.header_top .h-box-right{
+    float: right;
+    .xin,.mobile{
+        background: url(http://a2.jmstatic.com/6af6d8c6b9b5ec16/header_sprites1.png) no-repeat;
+    }
+   /*  .jiantou {
+        background: url(http://a2.jmstatic.com/04418ac031fb4e55/header_newicon1.png) no-repeat;
+    } */
+    .myjumei {
+        padding-left: 10px;
+        position: relative;
+        .kb{
+            background:#fff;
+            height: 28px;
+            padding-left: 18px;
+            padding-right: 10px;
+            position: absolute;
+            top:0px;
+            display: none;
+        }
+    }
+    .mobile_jumei{
+        a{
+            color: red;
+        }
+    }
+   
+}
+.header_top .h-box-right li {
+    margin-left: 14px;
+    a{
+        color: #999;
+        .xin {
+            width: 12px;
+            height: 11px;
+            float: left;
+            margin: 11px 2px 0 0;
+            display: block;
+        }
+        
+        .line{
+            width: 1px;
+            height: 14px;
+            float: left;
+            margin: 7px 12px 0 0;
+            background: #ddd;
+        }
+
+        .line-1 {
+            width: 1px;
+            height: 14px;
+            float: right;
+            margin: 7px 14px 0 12px;
+            background: #ddd;
+        }
+        .mobile{
+            width: 10px;
+            height: 14px;
+            background-position: 0 -21px;
+            float: left;
+            margin: 8px 5px 0 0;
+        }
+        .jiantou {
+            /* display: block;
+            width: 6px;
+            height: 3px; */
+            margin: 13px 6px 0 5px;
+            //float: right;
+        }
+        &:hover {
+            color: red;
+        }
+
+    }
+     .a1 {
+         margin-top: 2px;
+     }   
+}
+
+ .header_top .h-box .h-box-right .more {
+     padding-left: 18px;
+     margin-left: 0;
+ }
+
+//头部中间
+.header_center {
+    width: $width;
+    height: 110px;
+    margin: 0 auto;
+    background: #fff;
+    .logo{
+        float: left;
+        margin-top: 13px;
+        a {
+            background: url(http://p0.jmstatic.com/templates/jumei/images/logo_new_v1.jpg) no-repeat top left;
+            width: 165px;
+            height: 85px;
+            display: block;
+        }
+    } 
+    .search_box{
+        float: left;
+        padding-top: 28px;
+        margin-left: 124px;
+        .search_input{
+            width: 423px;
+            height:18px;
+            padding: 7px 5px;
+            border: 3px solid red;
+            border-right: 0;
+            outline: none;
+        }
+        .search_btn{
+            width: 100px;
+            height: 38px;
+            background: red;
+            color: #fff;
+            font-size: 14px;
+            cursor: pointer;
+            float:right;
+            border: 0;
+        }
+        .search_ul{
+            width: 446px;
+            height: 18px;
+            line-height: 18px;
+            margin-top: 6px;       
+            li a{
+                color: #999;
+            } 
+            .line {
+                width: 1px;
+                height: 12px;
+                float: right;
+                margin: 3px 8px -2px 8px;
+                background: #999;
+            }
+            .line-none{
+                display: none
+            }
+        }
+       
+        
+    }  
+    .cart_box{
+        float: right;
+        margin-top: 33px;
+        width: 138px;
+        height: 32px;
+        line-height: 32px;
+        border: 1px solid #e5e5e5;
+        a{
+            display: block;
+            position: relative;
+            img {
+                float: left;
+                width: 28px;
+                height: 28px;
+                padding: 0 9px;
+                display: block;
+            }
+
+            span {
+                color: #666;
+                float: left;
+                padding-left: 6px;
+                background: #f8f8f8;
+                width: 86px;
+                height: 32px;
+                line-height: 32px;
+            }
+
+            s{
+                display: block;
+                width: 6px;
+                height: 3px;
+                background: url(http://a2.jmstatic.com/04418ac031fb4e55/header_newicon1.png) no-repeat;
+                position: absolute;
+                right: 2px;
+                top: 11px;
+                margin: 4px 3px -2px 5px;
+            }
+        }
+        
+    } 
+}
+
+//头部下面导航
+.header_bottom {
+    height: 38px;
+    clear: both;
+    background:url(http://a1.jmstatic.com/e653901f7f30da9c/nav_new_line.jpg) #000 repeat-x;
+    .nav{
+        width: $width;
+        margin: 0 auto;
+        overflow: hidden;
+        .nav_list{
+           height: 38px;
+            float: left;
+            li{
+                float: left;
+                height: 38px;
+                a {
+                    color: #fff;
+                    font-size:14px; 
+                    line-height: 36px;
+                    overflow: hidden;
+                    padding: 0 22px;
+                    //js
+                    &:hover{
+                        color: #999;
+                    }
+                } 
+            }
+            .shouye{
+                background: #ed145b;    
+            }
+            .shouye a{
+                    padding: 0 40px;
+                    line-height: 38px;
+            }
+           .meizhuang{
+               position: relative;
+               s {
+                   background: url(http://a0.jmstatic.com/63376ba7c84b3352/popheadarrow01.png) no-repeat;
+                   position: absolute;
+                   top: 17px;
+                   right: 8px;
+                   transition: transform .2s ease-in;
+               }
+           }
+        }
+        /* .tu{
+            clear: both;
+            float: right;
+            margin-top: 5px;
+            height: 33px;
+            overflow: hidden;
+            li{
+                width: 30px;
+                float: left;
+                margin-right: 12px;
+                a{
+                    height: 30px;
+                    display: inline-block;
+                }
+                span{
+                    display: inline-block;
+                    width: 30px;
+                    height: 30px;
+                    vertical-align: -9px;
+                    float: left;
+                    margin-right: 3px;
+                }
+            }
+            .zhen{
+                background: url(http://a3.jmstatic.com/0d4bbfe600f8d38b/z_01new.jpg) no-repeat;
+
+            }
+            .tuihuan{
+                background:url(http://a5.jmstatic.com/901163e36281c86a/z02.jpg) no-repeat;
+            }
+            .by{
+                background:url(http://a1.jmstatic.com/79ab7f2d9d35ac68/z03.jpg) no-repeat;
+            }
+        } */
+    }
+}

@@ -1,0 +1,44 @@
+@charset "utf-8";
+@import "header";
+@import "footer";
+body,html{
+    background:#fff;
+    height: 100%;
+    font: 12px/1.5 arial,
+}
+li{
+    list-style: none;
+    float: left;
+}
+a{
+    text-decoration: none;
+}
+.clear{
+    clear: both;
+}
+$width:1349px;
+$width:1090px;
+
+//轮播图
+.site_body{
+    width:$width-1;
+    height: 350px; 
+    background: cyan;
+}
+//今日疯抢
+.home_top_tab{
+    width: $width;
+    height: 1690px;
+    margin: 0 auto;
+    background: purple;
+    margin-top: 20px;
+}
+//每日必看
+.layout_1090{
+    width: $width;
+    margin: 0 auto;
+    background: #ccc;
+}
+
+
+
