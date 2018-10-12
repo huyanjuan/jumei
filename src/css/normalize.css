@@ -10,6 +10,7 @@
 *{
   margin: 0;
   padding: 0;
+  /* box-sizing: border-box; */
 }
 html {
   line-height: 1.15; /* 1 */
@@ -86,7 +87,10 @@ abbr[title] {
 /**
  * Add the correct font weight in Chrome, Edge, and Safari.
  */
-
+ em{
+      font-style: normal;
+      font-weight: 400;
+} 
 b,
 strong {
   font-weight: bolder;

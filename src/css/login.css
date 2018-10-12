@@ -1,0 +1,332 @@
+@charset "UTF-8";
+body {
+  font-size: 12px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  width: 1318px;
+  height: 85px;
+  background: #fff;
+}
+.header .logo {
+  width: 960px;
+  margin: 0 auto;
+  height: 85px;
+}
+.header .logo a {
+  background: url(https://f0.jmstatic.com/static_passport/dist/v1.0.28403/images/logo_new_v1.jpg) no-repeat top left;
+  color: #ed145b;
+}
+.header .logo .home {
+  width: 360px;
+  height: 85px;
+  overflow: hidden;
+  float: left;
+  font-size: 0;
+  line-height: 0;
+}
+.header .logo_right {
+  display: inline-block;
+  padding-top: 35px;
+  float: right;
+}
+.header .logo_right .link {
+  width: 110px;
+  height: 31px;
+  overflow: hidden;
+  margin-right: 24px;
+  float: right;
+  background: url(https://f5.jmstatic.com/static_passport/dist/v1.0.28403/images/header_corn_new_v2.png) no-repeat top center transparent;
+}
+.header .logo_right .first {
+  background-position: 0 -64px;
+}
+.header .logo_right .second {
+  background-image: url(https://f5.jmstatic.com/static_passport/dist/v1.0.28403/images/gild.png);
+  width: 170px;
+}
+.header .logo_right .third {
+  background-position: 0 0;
+}
+
+.content .wrapper {
+  width: 965px;
+  height: 418px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin: 100px auto;
+  line-height: 1.5;
+}
+.content .wrapper .main {
+  width: 960px;
+  position: relative;
+}
+.content .wrapper .main .pic {
+  background: url(https://f1.jmstatic.com/static_passport/dist/v1.0.28403/images/account/login_sign/loginPic.jpg?1) no-repeat;
+  width: 960px;
+  height: 360px;
+  position: absolute;
+}
+.content .wrapper .main .main_content {
+  width: 300px;
+  margin: 0 auto;
+  position: absolute;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.075);
+  background: rgba(255, 255, 255, 0.85);
+  top: -10px;
+  right: 0;
+  padding: 0 23px;
+  color: #333;
+}
+.content .wrapper .main .main_content .title {
+  margin-bottom: 15px;
+  line-height: 60px;
+  overflow: hidden;
+}
+.content .wrapper .main .main_content .title .denglu strong {
+  float: left;
+  font-size: 20px;
+  color: #e31256;
+  font-family: "Microsoft YaHei", 微软雅黑, 黑体;
+}
+.content .wrapper .main .main_content .title .counter {
+  color: #969696;
+  float: right;
+}
+.content .wrapper .main .main_content .title .counter a {
+  color: #e31256;
+}
+.content .wrapper .main .main_content .methods {
+  height: 30px;
+}
+.content .wrapper .main .main_content .methods span {
+  padding-right: 30px;
+}
+.content .wrapper .main .main_content .dymtic {
+  display: none;
+}
+.content .wrapper .main .main_content .form_b input {
+  background: url(https://f3.jmstatic.com/static_passport/dist/v1.0.28403/images/account/login_sign/sign.png?2) no-repeat;
+}
+.content .wrapper .main .main_content .form_b .user_ph {
+  position: relative;
+  height: 44px;
+  margin-bottom: 26px;
+}
+.content .wrapper .main .main_content .form_b .user_ph #dy_mobile {
+  width: 252px;
+  padding: 10px 0px 10px 43px;
+  background-position: 5px 0;
+  box-shadow: none;
+  border: 1px solid #CFCFCF;
+  background-color: #fff;
+  line-height: 1.5;
+  font-size: 14px;
+  position: relative;
+}
+.content .wrapper .main .main_content .form_b .user_ph #dy_mobile:focus {
+  box-shadow: 0 0 4px 1px rgba(32, 157, 230, 0.4);
+  border-color: #A5D4ED;
+}
+.content .wrapper .main .main_content .form_b .user_ph .remind_text {
+  white-space: nowrap;
+  margin-top: 4px;
+  color: #999;
+  top: 100%;
+  left: 0;
+}
+.content .wrapper .main .main_content .form_b .dy_mima {
+  height: 44px;
+  color: #333;
+}
+.content .wrapper .main .main_content .form_b .dy_mima .mima {
+  position: relative;
+  width: 136px;
+}
+.content .wrapper .main .main_content .form_b .dy_mima .mima #dy_password {
+  width: 88px;
+  height: 41px;
+  padding-left: 38px;
+  background-position: 5px -50px;
+  display: inline-block;
+  float: left;
+  border: 1px solid #CFCFCF;
+  background-color: #fff;
+  vertical-align: middle;
+  line-height: 1.5;
+  font-size: 14px;
+  position: absolute;
+}
+.content .wrapper .main .main_content .form_b .dy_mima .mima #dy_password:focus {
+  box-shadow: 0 0 4px 1px rgba(32, 157, 230, 0.4);
+  border-color: #A5D4ED;
+}
+.content .wrapper .main .main_content .form_b .dy_mima .mima #normal_password {
+  width: 256px;
+  height: 41px;
+  padding-left: 38px;
+  background-position: 5px -50px;
+  display: inline-block;
+  float: left;
+  border: 1px solid #CFCFCF;
+  background-color: #fff;
+  vertical-align: middle;
+  line-height: 1.5;
+  font-size: 14px;
+  position: absolute;
+}
+.content .wrapper .main .main_content .form_b .dy_mima .mima .remind_text {
+  white-space: nowrap;
+  margin-top: 4px;
+  color: #999;
+  position: absolute;
+  top: 44px;
+  left: 0;
+  line-height: 1.5;
+}
+.content .wrapper .main .main_content .form_b .dy_mima .phonecode {
+  width: 130px;
+  height: 41px;
+  border: 1px solid #d9d9d9;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 0 8px;
+  display: inline-block;
+  line-height: 41px;
+  font-weight: 700;
+  color: #666;
+  margin-left: 10px;
+  text-align: center;
+  float: right;
+}
+.content .wrapper .main .main_content .form_b p {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+.content .wrapper .main .main_content .form_b p input {
+  vertical-align: middle;
+}
+.content .wrapper .main .main_content .form_b p a {
+  float: right;
+  color: #333;
+}
+.content .wrapper .main .main_content .form_b .submit {
+  background: #F8296D;
+  white-space: nowrap;
+  text-align: center;
+  line-height: 40px;
+  font-weight: 700;
+  font-size: 14px;
+  cursor: pointer;
+  padding: 0 30px;
+  height: 40px;
+  color: #fff;
+  border: 0;
+}
+.content .wrapper .main .main_content .accont div {
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.content .wrapper .main .main_content .accont p {
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+.content .wrapper .main .main_content .accont p a {
+  margin-right: 10px;
+  display: inline-block;
+  width: 43px;
+  height: 43px;
+  margin-right: 10px;
+  float: left;
+  background: url(https://f1.jmstatic.com/static_passport/dist/v1.0.28403/images/icon_light.jpg) no-repeat;
+}
+.content .wrapper .main .main_content .accont p .a2 {
+  background-position: -57px 0;
+}
+.content .wrapper .main .main_content .accont p .a3 {
+  background-position: -114px 0;
+}
+.content .wrapper .main .main_content .accont p .a4 {
+  background-position: -169px 0;
+}
+.content .wrapper .main .main_content .accont p .a5 {
+  background-position: -224px 0;
+}
+.content .wrapper .main .main_content .accont p .a6 {
+  background-position: -57px -54px;
+}
+.content .wrapper .main .main_content .accont p .a7 {
+  background-position: -169px -54px;
+}
+.content .wrapper .main .main_content .accont p .a8 {
+  background-position: -224px 0;
+}
+.content .wrapper .main .main_content .accont p span {
+  line-height: 30px;
+  position: relative;
+  left: -7px;
+  cursor: pointer;
+  float: left;
+  margin-top: 5px;
+}
+.content .wrapper .main .main_content .accont p span i {
+  width: 18px;
+  height: 17px;
+  display: inline-block;
+  position: absolute;
+  right: -21px;
+  top: 7px;
+  transition: .3s ease-in;
+  background: url(https://f1.jmstatic.com/static_passport/dist/v1.0.28403/images/icon_light.jpg) no-repeat;
+  background-position: -274px -23px;
+}
+.content .wrapper .main .main_content .accont .yincang {
+  display: none;
+}
+
+.footer .f_content {
+  background: #fff;
+  color: #000;
+  text-align: center;
+  width: 1090px;
+  margin: 0 auto;
+  overflow: hidden;
+  line-height: 20px;
+  padding-bottom: 80px;
+}
+.footer .f_content p {
+  padding: 14px 0 18px;
+  line-height: 23px;
+}
+.footer .f_content a {
+  color: #000;
+}
+.footer .footer_pic {
+  width: 126px;
+  height: 50px;
+  overflow: hidden;
+  display: inline-block;
+  margin-right: 8px;
+  margin: 0 4px;
+  border-bottom: 1px solid #d7d7d7;
+  background: url(https://f5.jmstatic.com/static_passport/dist/v1.0.28403/images/footer_btm_icon.png) no-repeat;
+}
+.footer .pic2 {
+  background-position: -126px 0;
+}
+.footer .pic3 {
+  background-position: -252px 0;
+}
+.footer .pic4 {
+  background-position: -378px 0;
+}
+.footer .pic5 {
+  background-position: -504px 0;
+}
+
+/*# sourceMappingURL=login.css.map */

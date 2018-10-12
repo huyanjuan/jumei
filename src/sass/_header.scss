@@ -28,37 +28,68 @@ $width:1090px;
     margin: 0 auto;
     color:#6c6c6c;
 }
-.header_top .h-box-left li{
-    margin-right: 20px;
+.clearfix::after{
+   content: ' '; display:block;height:0;overflow: hidden;clear: both;visibility: hidden;
+font-size: 0;
+}
+.h-box-left{float: left;}
+.header_top .after-left,.h-box-left li {
+    margin-right: 20px;   
 }
 .header_top .h-box-left a {
     color: #6c6c6c;
 }
-
+.header_top .h-box-left .dl_jumei a {
+    color: #ed155b;
+}
 .header_top .h-box-right{
     float: right;
     .xin,.mobile{
         background: url(http://a2.jmstatic.com/6af6d8c6b9b5ec16/header_sprites1.png) no-repeat;
     }
-   /*  .jiantou {
-        background: url(http://a2.jmstatic.com/04418ac031fb4e55/header_newicon1.png) no-repeat;
-    } */
+
     .myjumei {
         padding-left: 10px;
         position: relative;
-        .kb{
-            background:#fff;
-            height: 28px;
-            padding-left: 18px;
+        .jiantou{
+            transition: all 0.5s
+        }
+        .sub_nav {
+            width: 91px;
+            padding-left: 8px;
             padding-right: 10px;
             position: absolute;
-            top:0px;
+            top: 29px;
+            left: -35px;
+            background: #fff;
             display: none;
+            border: 1px solid #ddd;
+            border-top: none;
+            box-shadow: 1px 3px 5px rgba(0, 0, 0, .2);
+
+            ul {
+                overflow: hidden;
+            }
+        }
+}
+       
+    
+    .myjumei:hover{
+        background:#fff;
+        height: 29px;
+        .jiantou{
+            transform: rotate(180deg)
+        }
+        .sub_nav{
+            display: block;
+            a{
+                text-indent: 20px;
+            }
         }
     }
     .mobile_jumei{
         a{
-            color: red;
+            color: #ed155b;
         }
     }
    
@@ -105,7 +136,7 @@ $width:1090px;
             //float: right;
         }
         &:hover {
-            color: red;
+            color:#ed155b;
         }
 
     }
@@ -120,11 +151,14 @@ $width:1090px;
  }
 
 //头部中间
+.header_c{
+    width: 100%;
+    background: #fff;
+}
 .header_center {
     width: $width;
     height: 110px;
     margin: 0 auto;
-    background: #fff;
     .logo{
         float: left;
         margin-top: 13px;
@@ -267,8 +301,7 @@ $width:1090px;
                }
            }
         }
-        /* .tu{
-            clear: both;
+         .tu{
             float: right;
             margin-top: 5px;
             height: 33px;
@@ -282,7 +315,7 @@ $width:1090px;
                     display: inline-block;
                 }
                 span{
-                    display: inline-block;
+                    display: block;
                     width: 30px;
                     height: 30px;
                     vertical-align: -9px;
@@ -300,6 +333,6 @@ $width:1090px;
             .by{
                 background:url(http://a1.jmstatic.com/79ab7f2d9d35ac68/z03.jpg) no-repeat;
             }
-        } */
+        } 
     }
 }
